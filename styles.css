@@ -1,0 +1,85 @@
+body {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a1dbff+0,d3a9c4+54,f0f9ff+100 */
+background: rgb(161,219,255); /* Old browsers */
+background: -moz-linear-gradient(left, rgba(161,219,255,1) 0%, rgba(211,169,196,1) 54%, rgba(240,249,255,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(161,219,255,1) 0%,rgba(211,169,196,1) 54%,rgba(240,249,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(161,219,255,1) 0%,rgba(211,169,196,1) 54%,rgba(240,249,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a1dbff', endColorstr='#f0f9ff',GradientType=1 ); /* IE6-9 */
+
+  text-transform: capitalize;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#container{
+  background-color: #f7f7f7;
+  width: 360px;
+  margin: 100px auto;
+  padding: 0;
+  box-shadow: 0 0 5px rgba(0,0,0, 0.4);
+}
+
+h1{
+  letter-spacing: .25em;
+  background-color: #2980b9;
+  color: white;
+  margin: 0;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  background-color: rgba(220,220,220, .5);
+}
+
+li {
+  background-color: #fff;
+  letter-spacing:.2em;
+  padding: 10px 0;
+  list-style-type: none;
+  color: #666;
+}
+
+li:nth-child(2n){
+  background-color: #f7f7f7;
+}
+
+input{
+  font-size: 18px;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #f7f7f7;
+  color: #2980b9;
+  border: 3px solid rgba(0,0,0,0);
+}
+
+input:focus{
+  background-color: #fff;
+  border: 3px solid #2980b9;
+  outline: none;
+}
+
+.changeLi{
+  color: grey;
+  text-decoration: line-through;
+}
+
+.fa-magic{
+  float: right;
+  color: salmon;
+}
+.fa-magic:hover {
+  width: 40px;
+  height: 30px;
+  color: white;
+  background-color: salmon;
+  transition: .5s linear;
+}
+.fa-hat-wizard {
+  float: right;
+  color: #b1ffd8;
+}
